@@ -1,7 +1,7 @@
 import random
 
 #Getting a random number within the range 1-9
-randInt = random.randrange(1, 9)
+randInt = random.randrange(1, 10)
 chanceCount = 0
 
 while chanceCount < 5:
