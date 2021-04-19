@@ -4,6 +4,8 @@ import random
 randInt = random.randrange(1, 10)
 chanceCount = 0
 
+print("Guess a number from 1-9")
+
 while chanceCount < 5:
     guess = int(input("Enter your guess: "))
     chanceCount = chanceCount + 1
